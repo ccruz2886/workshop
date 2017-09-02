@@ -1,0 +1,8 @@
+version: '2'
+services:
+  react:
+    build: .
+    container_name: 'react'
+    volumes:
+      - .:/app
+      -:/app/node_modules
